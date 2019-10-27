@@ -90,28 +90,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# Switch_SW_SPST
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
+DEF Switch_SW_SPST SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Switch_SW_SPST" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_BSS83P
+# Transistor_FET_BSS84
 #
-DEF Transistor_FET_BSS83P Q 0 0 Y N 1 F N
+DEF Transistor_FET_BSS84 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_BSS83P" 200 0 50 H V L CNN
+F1 "Transistor_FET_BSS84" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS VP0610T BSS84 NTR2101P BSS83P Si2319CDS IRLML6402 DMG2301L AO3401A
@@ -143,11 +142,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i2c-moist-sensor-rescue_DIODESCH
+# i2c-moist-sensor-rescue_DIODESCH-i2c-moist-sensor-rescue
 #
-DEF i2c-moist-sensor-rescue_DIODESCH D 0 40 N N 1 F N
+DEF i2c-moist-sensor-rescue_DIODESCH-i2c-moist-sensor-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "i2c-moist-sensor-rescue_DIODESCH" 0 -100 50 H V C CNN
+F1 "i2c-moist-sensor-rescue_DIODESCH-i2c-moist-sensor-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -162,11 +161,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i2c-moist-sensor-rescue_LED-RESCUE-i2c-moist-sensor
+# i2c-moist-sensor-rescue_LED-RESCUE-i2c-moist-sensor-i2c-moist-sensor-rescue
 #
-DEF i2c-moist-sensor-rescue_LED-RESCUE-i2c-moist-sensor D 0 40 Y N 1 F N
+DEF i2c-moist-sensor-rescue_LED-RESCUE-i2c-moist-sensor-i2c-moist-sensor-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "i2c-moist-sensor-rescue_LED-RESCUE-i2c-moist-sensor" 0 -100 50 H V C CNN
+F1 "i2c-moist-sensor-rescue_LED-RESCUE-i2c-moist-sensor-i2c-moist-sensor-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST

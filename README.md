@@ -34,3 +34,14 @@ uint8_t adv_data[] = {
     'D', 'A', 'T', 'A',
 };
 ```
+
+## Debug adaptor
+
+A ST-LinkV2 can be used to program the chip.
+
+The connector is based on the J-Link 9 pins pinout. 
+https://www.segger.com/products/debug-probes/j-link/accessories/adapters/9-pin-cortex-m-adapter/
+
+## Code
+
+At this moment, this repo is only for the HW design, the code is in another repo.
